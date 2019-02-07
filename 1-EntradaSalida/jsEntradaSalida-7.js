@@ -12,9 +12,9 @@ primerNumero=numeroUno.value;
 segundoNumero=numeroDos.value;
 
 primerNumero=parseInt(primerNumero);
-segundoNumero=parseInt(numeroDos);
+segundoNumero=parseInt(segundoNumero);
 
-suma=primerNumero+numeroDos;
+suma=(primerNumero+segundoNumero);
 
 alert("la suma es:"+suma);
 
@@ -22,7 +22,8 @@ alert("la suma es:"+suma);
 
 function restar()
 {
-	
+
+
 }
 
 function multiplicar()
