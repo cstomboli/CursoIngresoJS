@@ -10,7 +10,7 @@ var porcentaje;
 var sueldoConAumento;
 
 //primerNumero=document.getElementByid(sueldo).value; (sueldo)con comillas simples!!
-primerNumero=sueldo.value;
+primerNumero=sueldo.value; //una vez que valido el id, solo uso la variable
 primerNumero=parseInt(primerNumero);
 
 //sueldo*20/100 o;
