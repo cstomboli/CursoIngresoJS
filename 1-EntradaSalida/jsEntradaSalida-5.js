@@ -8,8 +8,6 @@ var edad;
 nombre=elNombre.value;
 edad=laEdad.value;
 
-//alert(nombre+edad);
-alert("Usted se llama "+nombre+" y tiene "+edad+" años");
-
+alert("Usted se llama: " + nombre + " y tiene " + edad + " años.");
 }
 
