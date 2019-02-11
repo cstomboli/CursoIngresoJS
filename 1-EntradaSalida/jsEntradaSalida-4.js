@@ -8,7 +8,10 @@ var nombre;
 
 nombre=prompt("Por favor indique su nombre: ");
 
-document.getElementById('elNombre').value=nombre;
+document.getElementById(elNombre).value=nombre;
+
+//dentro de document.get.. no es necesario poner el id Entre comillas 
+//simples. NO SON NECESARIAS LAS COMILLAS
 
 
 }
