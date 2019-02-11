@@ -10,11 +10,10 @@ var resto;
 
 dividendo=numeroDividendo.value;
 divisor=numeroDivisor.value;
-
-numeroDividendo=parseInt(numeroDividendo);
-numeroDivisor=parseInt(numeroDivisor);
+dividendo=parseInt(dividendo);
+divisor=parseInt(divisor);
 
 resto=dividendo%divisor;
 
-alert("El resto es:" +resto);
+alert("El resto es: " +resto);
 }
