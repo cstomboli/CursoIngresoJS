@@ -5,19 +5,16 @@ function sumar()
 {
 var primerNumero;
 var segundoNumero;
-var suma; 
+var suma;
 
 primerNumero=numeroUno.value;
 segundoNumero=numeroDos.value;
-
-
 primerNumero=parseInt(primerNumero);
 segundoNumero=parseInt(segundoNumero);
-//alert(primerNumero+segundoNumero);
-suma=(primerNumero+segundoNumero);
 
-alert("la suma es : " + suma);
+suma=primerNumero+segundoNumero;
 
+alert(suma);
 
 }
 
