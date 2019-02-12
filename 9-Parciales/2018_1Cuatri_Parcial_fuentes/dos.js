@@ -1,6 +1,6 @@
 function mostrar()
 {
- var nombre;
+ var nombre; llll
  var localidad;
 
  nombre=elNombre.value;
