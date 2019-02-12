@@ -7,9 +7,8 @@ var precioFinal
 
 precio=prompt("Por favor ingrese el precio");
 descuento=prompt("Por favor ingrese el descuento");
-
-precio=parseInt(precio);
-descuento=parseInt(descuento);
+//NO PARSEO LOS NUMEROS Y EL DESCUENTO LO ESCRIBO CON
+//CERO COMA!
 
 precioConDescuento=precio*descuento;
 precioFinal=precio-precioConDescuento;
