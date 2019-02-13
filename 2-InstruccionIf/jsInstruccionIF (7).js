@@ -9,15 +9,13 @@ var estadoCivil3;
 laEdad=edad.value;
 laEdad=parseInt(laEdad);
 estadoCivil1=Soltero.value;
-estadoCivil2=
-estadoCivil3=
+estadoCivil2=Casado.value;
+estadoCivil3=Divorciado.value;
 
 
 if (laEdad < 18)
 
-	{
-	if 
-	}
+	
 		{
 			alert("Es muy peuqeño para no ser Soltero.");
 		}
