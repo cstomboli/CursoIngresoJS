@@ -20,7 +20,39 @@ if (laEdad < 18)
 			alert("Es muy peuqeño para no ser Soltero.");
 		}
 
+/*
 
+	var laEdad;
+	var estadoCivil;
+
+	laEdad=edad.value;
+	laEdad=parseInt(laEdad);
+
+	
+	estadoCivil=Casado.value;
+	estadoCivil=Divorciado.value;
+	
+
+	if (laEdad<18 && estadoCivil=Casado)
+
+		{
+			alert("Es muy pequeño para NO ser soltero");		
+		}
+
+		else 
+		{
+
+			if (laEdad<18 && estadoCivil=Divorciado) 
+		
+			{
+			alert("Es muy peuqueño para NO se soltero");		
+			}
+
+
+		}
+
+
+*/
 
 	
 
