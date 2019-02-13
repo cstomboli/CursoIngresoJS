@@ -12,6 +12,28 @@ function mostrar()
 	var recargo;
 	var recargoFinal;
 
+	/*
+		var suma
+
+		precioDelProducto=prompt("Por favor ingrese el precio del producto");
+		precioDelProucto2=prompt("Por favor ingrese el precio del producto");
+		cantidadDePrendas=prompt("Por favor ingrese la cantidad de prendas:");
+
+		precioDelProducto=parseInt(precioDelProducto);
+		precioDelProducto2=parseInt(precioDelProducto2);
+		cantidadDePrendas=parseInt(cantidadDePrendas);
+
+		suma=precioDelProducto+precioDelProducto2;
+		descuentoPorPrendas=suma*0.1;
+		descuentoFinalPorPrendas=suma-descuentoPorPrendas,
+
+		descuento1=suma*1.5;
+		descuentoFinal=suma-descuentoPorPrendas-descuento1; //Esto es si paga en EFECTIVO
+
+
+
+
+	*/
 
 	precioDelProducto=Producto.value;
 	precioDelProducto2=Producto2.value;
