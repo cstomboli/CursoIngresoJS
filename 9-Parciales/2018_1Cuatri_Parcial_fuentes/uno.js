@@ -1,18 +1,24 @@
 
 function mostrar()
 {
-var ancho;
-var largo;
-var medidas;
-var perimetro;
+		var nombre1;
+		var nombre2;
+		var edad1;
+		var edad2;
+		var suma;
 
-ancho=prompt("Por favor indique el ancho");
-largo=prompt("Por favor indique el largo");
-ancho=parseInt(ancho);
-largo=parseInt(largo);
+		nombre1=prompt("Por favor ingrese su nombre: ");
+		nombre2=prompt("Por favor ingrese su nombre: ");
 
-medidas=largo+ancho;
-perimetro=medidas*2;
+		edad1=prompt("Por favor ingrese su edad: ");
+		edad2=prompt("Por favor ingrese su edad: ");
+		edad1=parseInt(edad1);
+		edad2=parseInt(edad2);
 
-alert(perimetro);
+		suma=(edad1+edad2);
+
+		alert("Ustedes son " + nombre1 + " y " + nombre2 +", sus edades son " + edad1 + " y " + edad2 +", y la suma de sus edades es " + suma + " ");
+
+
+
 }
