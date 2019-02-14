@@ -1,19 +1,20 @@
 function mostrar()
 {
 //tomo la edad  
-var LaEdad;
+var edad;
 var estadoCivil1;
 var estadoCivil2;
-var estadoCivil3;
+
+
 
 laEdad=edad.value;
 laEdad=parseInt(laEdad);
-estadoCivil1=Soltero.value;
+estadoCivil1=estadoCivil.value;
 estadoCivil2=Casado.value;
-estadoCivil3=Divorciado.value;
 
 
-if (laEdad < 18)
+
+if (laEdad < 18 && estadoCivil1=Casado)
 
 	
 		{

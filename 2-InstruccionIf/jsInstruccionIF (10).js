@@ -14,16 +14,26 @@ function mostrar()
 			alert("EXCELENTE");
 		}
 
-	if (boton>4 && boton<9)
+	else 
 		
 		{
-			alert("APROBO");
-		}
+			if (boton>=4 && boton<9)
 
-	else
+			{
+				alert("APROBO");
+			}
 		
-		{
-			alert("Vamos, la proxima se puede");
+
+			else
+		
+			{
+				alert("Vamos, la proxima se puede");
+
+			}		
+		
+		
+
+
 		}
 	
 
