@@ -21,6 +21,40 @@ if (laEdad < 18 && estadoCivil1=Casado)
 			alert("Es muy peuqeño para no ser Soltero.");
 		}
 
+	/*
+	//CLASE DE APOYO!
+	var edad;
+	var estado;
+
+	edad=documente.getElementby(edad).value;
+	estado=document.ge(estado);
+
+	document.write (edad);
+	document.write(estado);
+
+	if (edad<18 && estado != "Soltero") escribo soltero idem como aparece en el text box
+
+		{
+			alert("Es demadiado peque");
+
+		}
+
+
+
+
+
+
+
+
+
+
+	*/	
+
+
+
+
+
+
 /*
 
 	var laEdad;
