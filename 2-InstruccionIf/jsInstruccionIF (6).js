@@ -26,6 +26,13 @@ function mostrar()
 
 	}
 
+
+	 /*
+var mensaje;
+en vez de escribir aler, pones mensaje!
+alert(mensaje);
+	 */
+
 	//Pero tambien se puede hacer asi.
 
 
