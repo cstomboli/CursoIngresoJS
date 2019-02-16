@@ -15,6 +15,10 @@ if(laEdad==15)
 }
 
 
+// aritmeticos: + , - , * , / , % (modulo)
+// relacionales: ==; != , <, > , <= , >=
+// logicos: && (y), || (o), ! (no);
+
 
 
 
