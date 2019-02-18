@@ -11,18 +11,37 @@ function comenzar()
 {
 	var opcion;
 
-	usuario=prompt("Ingrese un numero");
+	
 
 	opcion=Math.floor((Math.random() * 3) + 1);
 	console.log(opcion);
 
-	eleccionMaquina=1;
+	
 
 
 }//FIN DE LA FUNCIÓN
 function piedra()
 {
-if (usuario==1)
+if (usuario==1 && eleccionMaquina==1)
+	{
+		alert("Empate");
+	}	
+
+	if (usuario ==1 && eleccionMaquina == 2)
+
+	{
+		alert("Perdiste");
+	}
+	if (usuario ==1 && eleccionMaquina==3)
+	{
+		alert ("Ganaste");
+	}
+	
+
+}//FIN DE LA FUNCIÓN
+function papel()
+{
+if (usuario==2)
 	{
 		alert("Empate");
 	}	
@@ -33,19 +52,18 @@ if (usuario==1)
 		alert("Ganaste");
 	}
 
-
-
-
-
-
-}//FIN DE LA FUNCIÓN
-function papel()
-{
-
-
 }//FIN DE LA FUNCIÓN
 function tijera()
 {
-	
+if (usuario==3)
+	{
+		alert("Empate");
+	}	
+
+	if (usuario ==2);
+
+	{
+		alert("Ganaste");
+	}	
 
 }//FIN DE LA FUNCIÓN
