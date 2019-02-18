@@ -11,7 +11,7 @@ switch (mesDelAño)
 						
 			case "Febrero":
 			mensaje="Este mes no tiene mas de 29 dias";
-			break
+			break;
 
 			default:
 			mensaje="Este mes tiene 30 dias o mas";
