@@ -11,20 +11,27 @@ function comenzar()
 {
 	var opcion;
 
-	usuario=FormIngreso.value;
+	usuario=prompt("Ingrese un numero");
 
 	opcion=Math.floor((Math.random() * 3) + 1);
 	console.log(opcion);
 
+	eleccionMaquina=1;
 
 
 }//FIN DE LA FUNCIÓN
 function piedra()
 {
-if(eleccionMaquina==1 && usuario==1)
+if (usuario==1)
 	{
 		alert("Empate");
 	}	
+
+	if (usuario ==2);
+
+	{
+		alert("Ganaste");
+	}
 
 
 
