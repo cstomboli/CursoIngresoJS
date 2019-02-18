@@ -46,7 +46,7 @@ if (usuario==2)
 		alert("Empate");
 	}	
 
-	if (usuario ==2);
+	if (usuario ==3);
 
 	{
 		alert("Ganaste");

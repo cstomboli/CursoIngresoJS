@@ -25,8 +25,42 @@ function CalcularPrecio ()
  	precioFinal=precioDescuento.value;
 
  	numeroLamparas=parseInt(numeroLamparas);
-
+ 	//precio=numero de lamparas*35;
  	precio=35;
+ 	//switch (numeroLamparas)
+ 	{
+ 		// NO SE PUEDE PONER CASE >6: NO SE PONE MAYOR
+ 		case 5:
+
+ 				 if (numeroLamparas==5)
+
+ 			{
+ 				if (marcaDeLamparas== "ArgentinaLuz")
+
+ 				{
+ 				//escribe 0.6 que es lo que queda;
+ 				descuento=0.4; 
+ 				}
+ 				else (numeroLamparas==5 && marcaDeLamparas != "ArgentinaLuz" )
+
+ 				{
+ 				
+ 				descuento=0.3;
+ 				}
+
+ 			}
+
+ 			break;
+ 		
+ 		case 4:
+
+
+
+ 	}
+
+
+
+
 
  	if (numeroLamparas>=6)
 
@@ -37,48 +71,72 @@ function CalcularPrecio ()
 	else
  	
  	{		
- 		if (numeroLamparas==5 && marcaDeLamparas== "ArgentinaLuz")
+ 		if (numeroLamparas==5)
 
  			{
- 				descuento=0.4;
- 			}
- 		if (numeroLamparas==5 && marcaDeLamparas != "ArgentinaLuz" )
+ 				if (marcaDeLamparas== "ArgentinaLuz")
 
- 			{
+ 				{
+ 				//escribe 0.6 que es lo que queda;
+ 				descuento=0.4; 
+ 				}
+ 		else (numeroLamparas==5 && marcaDeLamparas != "ArgentinaLuz" )
+
+ 				{
+ 				
  				descuento=0.3;
+ 				}
+
  			}
- 	}
-
- 	if (numeroLamparas==4)
-
- 	{
- 			if ( marcaDeLamparas=="ArgentinaLuz" || marcaDeLamparas == "FelipeLamparas")
-
- 			{
- 				descuento=0.25;
- 			}
- 			else 
- 			{
- 				descuento=0.20;
- 			}
-
- 	}
  	
- 	if (numeroLamparas==3) 
 
- 	{
- 			if (marcaDeLamparas == "ArgentinaLuz" )
- 			{
- 				descuento=0.15; //error en el resultado del descuento.
- 			}
- 			if (marcaDeLamparas == "FelipeLamparas" )
- 			{
- 				descuento=0.10;
- 			}
  			else
  			{
- 				descuento=0.5;
+ 				 		if (numeroLamparas==4)
+
+ 						{
+ 							if ( marcaDeLamparas=="ArgentinaLuz" || marcaDeLamparas == "FelipeLamparas")
+
+ 								{
+ 										descuento=0.25;
+ 								}
+ 							else 
+ 								{
+ 									descuento=0.20;
+ 								}
+
+ 						}
+ 	
+ 				else
+
+ 				{
+
+ 					if (numeroLamparas==3) 
+
+ 					{
+ 						if (marcaDeLamparas == "ArgentinaLuz" )
+ 						{
+ 							descuento=0.15; //error en el resultado del descuento.
+ 						}
+ 						if (marcaDeLamparas == "FelipeLamparas" )
+ 						{
+ 							descuento=0.10;
+ 						}
+ 							else
+ 						{
+ 							descuento=0.5;
+ 						}
+
+ 					}
+
+			
+ 				}
+
  			}
+
+ 	}
+
+ 	
 
  	}
 
@@ -104,3 +162,9 @@ function CalcularPrecio ()
 
 
 }
+
+
+
+
+
+
