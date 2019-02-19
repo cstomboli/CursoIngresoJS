@@ -13,7 +13,6 @@ else
 
 	{
 
-
 		switch (laHora)
 
 		{
@@ -36,7 +35,9 @@ else
 			mensaje="Es de tarde";
 			break;
 
-
+			default:
+			mensaje="La hora no existe";
+			break;
 
 
 	}
