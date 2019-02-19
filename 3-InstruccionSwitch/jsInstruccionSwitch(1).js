@@ -27,11 +27,11 @@ switch (mesDelAño)
 			
 				mensaje="Felices Fiestas";
 			break;
-			
-
-
+		
 		}
-
+//si no pongo el if, y solo pongo el alert,
+// muestra un mrensaje
+//vacio por casa mes!!
 if (mensaje != " ")
 	{
 	alert(mensaje);
