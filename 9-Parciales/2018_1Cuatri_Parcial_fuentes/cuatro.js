@@ -1,22 +1,41 @@
 function mostrar()
 {
-	var producto;
-	var precio;
-	var precioFinal;
-	var pago;
+	var numeroUno;
+	var numeroDos;
+	var resultado;
+	var resto;
+	var suma;
 
-	producto=prompt("Por favor ingrese la cantidad de productos");
-	producto=parseInt(producto);
+	numeroUno=prompt("Por favor ingrese el primer numero:");
+	numeroDos=prompt("Por favor ingrese el segundo numero:");
+	
 
-	pago=prompt("Por favor ingrese si paga 1- Efectivo 2- Tarjeta");
-
-	if (producto>2)
+	if (numeroUno == numeroDos)
 
 		{
-
-			
+			alert(numeroUno+numeroDos);
 		}
 
-	
+		else
+		{
+
+			numeroUno=parseInt(numeroUno);
+			numeroDos=parseInt(numeroDos);
+			resto=numeroUno-numeroDos;
+			suma=numeroUno+numeroDos;
+
+					if (numeroUno>numeroDos)
+					{
+						alert(resto);
+					}
+			
+						else
+						{
+							alert(suma);
+						}
+		
+
+		}
+
 
 }
