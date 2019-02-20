@@ -1,23 +1,29 @@
 function mostrar()
 {
- var laHora;
+ var hora;
  var mensaje="";
 
-if (laHora>19 && laHora<24)
+hora=laHora.value;
+hora=parseInt(hora);
+
+
+if (hora>19 && hora<=24)
     {
     	alert("Es de noche");
 	}
 
-if (laHora>0 && laHora<6)
+if (hora>0 && hora<6)
 	{
     	alert("Es de noche");
 	}
+// case :
+//if ()
 
-else
+		else
 
 	{
 
-			switch (laHora)
+			switch (hora)
 
 			{
 				case "7":
@@ -39,12 +45,15 @@ else
 				mensaje="Es de tarde";
 				break;
 
+				
 				default:
 				mensaje="La hora no existe";
 				break;
 
 
 			}
+
+
 
 	
 	}
