@@ -4,7 +4,7 @@ function mostrar()
 var laHora = document.getElementById('hora').value;
 var mensaje= " ";
 	
-if (laHora>19 && laHora<25)
+if (laHora>19 && laHora<24)
     {
     	alert("Es de noche");
 	}
