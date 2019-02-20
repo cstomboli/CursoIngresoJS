@@ -1,41 +1,63 @@
 function mostrar()
 {
-	var numeroUno;
-	var numeroDos;
-	var resultado;
-	var resto;
-	var suma;
+	var precio1;
+	var precio2;
+	var precio3;
+	var precio4;
+	var total;
+	var descuento;
+	var recargo;
 
-	numeroUno=prompt("Por favor ingrese el primer numero:");
-	numeroDos=prompt("Por favor ingrese el segundo numero:");
-	
 
-	if (numeroUno == numeroDos)
+	precio1=prompt("Por favor ingrese el primer precio");
+	precio2=prompt("Por favor ingrese el segundo precio");
+	precio3=prompt("Por favor ingrese el tercer precio");
+	precio4=prompt("Por favor ingrese el cuarto precio");
 
-		{
-			alert(numeroUno+numeroDos);
-		}
+	precio1=parseInt(precio1);		
+	precio2=parseInt(precio2);	
+	precio3=parseInt(precio3);	
+	precio4=parseInt(precio4);
 
-		else
-		{
+	total=precio1+precio2+precio3+precio4;	
 
-			numeroUno=parseInt(numeroUno);
-			numeroDos=parseInt(numeroDos);
-			resto=numeroUno-numeroDos;
-			suma=numeroUno+numeroDos;
+	if (precio1<precio2 || precio3<precio4)	
 
-					if (numeroUno>numeroDos)
+			{
+
+			}	
+
+			if (precio2<precio4)
+			{
+				alert(precio4);
+			}	
+
+	if (total>100)
+			{
+				descuento=total*0.9;
+				alert(descuento);
+			}		
+				else
+				{
+					if (total>50 && total<100)
 					{
-						alert(resto);
+						descuento=total*0.95;
+						alert(descuento);
 					}
-			
-						else
-						{
-							alert(suma);
-						}
-		
 
-		}
+					else 
+					{
+						if (total<50)
+						{
+							recargo=total*1.15;
+							alert(recargo);	
+						}		
+					
+
+					}	
+
+
+				}
 
 
 }
