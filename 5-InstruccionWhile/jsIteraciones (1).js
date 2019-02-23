@@ -6,10 +6,24 @@ function mostrar()
 	{
 		
 		contador=contador+1;
-		
+		//document.write(contador + "<br>")
+		alert(contador);	
 	}
 
-	console.log(contador);
+/*
+Si quisiera diminuir:
+{
+	var contador =10;
+
+	while (contador>0)
+	{
+		
+		contador=contador-1;
+		//document.write(contador + "<br>")
+		alert(contador);	
+	}
+PROBARLO
+*/	
 	
 
 	//alert('iteración while');
