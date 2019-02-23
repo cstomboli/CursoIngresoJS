@@ -9,159 +9,25 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
 
  */
 function CalcularPrecio () 
+
+
 {
- 	var numeroLamparas;
- 	var marcaDeLamparas;
- 	var precio;
- 	var precioTotal;
- 	var descuento;
- 	var precioFinal;
- 	var importeFinal;
- 	var ingresos;
- 	var ingresosFinal;
+var marca;	
+var cantidad;
 
- 	numeroLamparas=Cantidad.value;
- 	marcaDeLamparas=Marca.value;
- 	precioFinal=precioDescuento.value;
+marca=Marca. value;
+cantidad=Cantidad. value;
 
- 	numeroLamparas=parseInt(numeroLamparas);
- 	//precio=numero de lamparas*35;
- 	precio=35;
- 	//switch (numeroLamparas)
- 	{
- 		// NO SE PUEDE PONER CASE >6: NO SE PONE MAYOR
- 		case 5:
-
- 				 if (numeroLamparas==5)
-
- 			{
- 				if (marcaDeLamparas== "ArgentinaLuz")
-
- 				{
- 				//escribe 0.6 que es lo que queda;
- 				descuento=0.4; 
- 				}
- 				else (numeroLamparas==5 && marcaDeLamparas != "ArgentinaLuz" )
-
- 				{
- 				
- 				descuento=0.3;
- 				}
-
- 			}
-
- 			break;
- 		
- 		case 4:
-
-
-
- 	}
-
-
-
-
-
- 	if (numeroLamparas>=6)
-
- 		{
- 			descuento=0.5;
-
- 		}
-	else
- 	
- 	{		
- 		if (numeroLamparas==5)
-
- 			{
- 				if (marcaDeLamparas== "ArgentinaLuz")
-
- 				{
- 				//escribe 0.6 que es lo que queda;
- 				descuento=0.4; 
- 				}
- 		else (numeroLamparas==5 && marcaDeLamparas != "ArgentinaLuz" )
-
- 				{
- 				
- 				descuento=0.3;
- 				}
-
- 			}
- 	
-
- 			else
- 			{
- 				 		if (numeroLamparas==4)
-
- 						{
- 							if ( marcaDeLamparas=="ArgentinaLuz" || marcaDeLamparas == "FelipeLamparas")
-
- 								{
- 										descuento=0.25;
- 								}
- 							else 
- 								{
- 									descuento=0.20;
- 								}
-
- 						}
- 	
- 				else
-
- 				{
-
- 					if (numeroLamparas==3) 
-
- 					{
- 						if (marcaDeLamparas == "ArgentinaLuz" )
- 						{
- 							descuento=0.15; //error en el resultado del descuento.
- 						}
- 						if (marcaDeLamparas == "FelipeLamparas" )
- 						{
- 							descuento=0.10;
- 						}
- 							else
- 						{
- 							descuento=0.5;
- 						}
-
- 					}
-
-			
- 				}
-
- 			}
-
- 	}
-
- 	
-
- 	}
-
- 	precioTotal=numeroLamparas*precio;
-
- 	precioFinal=precioTotal*descuento;
- 	importeFinal=precioTotal-precioFinal;
-
- 	document.getElementById('precioDescuento').value=importeFinal;
-
- 	if (precioFinal > 120) //sale si pongo 7 en lamparas
-
-		{
-			ingresos=importeFinal*0.1;
- 			ingresosFinal=importeFinal-ingresos;
- 		
- 			alert("IIBB Usted pago " + ingresosFinal + " siendo " + ingresos + " el impuesto que pago "); // No tira el alert
-		} 	
- 		
- 	
+alert (cantidad + marca);
 
 
 
 
 }
+	
+
+
+
 
 
 
