@@ -25,18 +25,8 @@ function CalcularPrecio ()
 
 	switch (cantidad)
 	{
-		case 5:
-		
-					
-					if (marca=="ArgentinaLuz") 
-					{
-						precioConDescuento=precio*0.6;
-					}
-					else
-					{
-						precioConDescuento=precio*0.7;
-					}
-			
+		case "5":
+		precioConDescuento=precio*0.6;
 		alert(precioConDescuento);
 		break;	
 	}

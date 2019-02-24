@@ -1,16 +1,13 @@
 function mostrar()
 {
- var laHora;
- var mensaje="";
+	var laHora;
+	var mensaje="";
 
-if (laHora>19 && laHora<24)
-    {
-    	alert("Es de noche");
-	}
+	laHora=document.getElementById('laHora').value;
 
 if (laHora>0 && laHora<6)
 	{
-    	alert("Es de noche");
+    	mensaje="Es de noche";
 	}
 
 else
@@ -39,6 +36,14 @@ else
 				mensaje="Es de tarde";
 				break;
 
+				case "20":
+				case "21":
+				case "22":
+				case "23":
+				case "24":		
+				mensaje="Es de noche";
+				break;
+
 				default:
 				mensaje="La hora no existe";
 				break;
@@ -48,10 +53,15 @@ else
 
 	
 	}
-
 if (mensaje != " ")
 	{
 	alert(mensaje);
 	}
+	
+if (laHora>19 && laHora<24) 
+{
+	alert("a dormir");
+}	
+
 
 }

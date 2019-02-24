@@ -4,6 +4,7 @@ function mostrar()
 	var precio2;
 	var precio3;
 	var precio4;
+	var precioMayor
 	var total;
 	var descuento;
 	var recargo;
@@ -21,16 +22,25 @@ function mostrar()
 
 	total=precio1+precio2+precio3+precio4;	
 
-	if (precio1<precio2 || precio3<precio4)	
-
+	if (precio1>=precio2 && precio1>=precio3 && precio1>=precio4)	
+	{precioMayor=precio1;}	
+	else
+		{	if (precio2>=precio3 && precio2>=precio4) 
+			{precioMayor=precio2;}
+			else
 			{
+				if (precio3>=precio4) 
+				{precioMayor=precio3;}
+			
+				else
+				{
+				precioMayor=precio4;
+				}
+			}		
+		}
 
-			}	
 
-			if (precio2<precio4)
-			{
-				alert(precio4);
-			}	
+				
 
 	if (total>100)
 			{
@@ -59,5 +69,15 @@ function mostrar()
 
 				}
 
+	total=total*recargo;
+	alert("El mayor es: "+precioMayor+ " y el total es: "+ total +" ".);
+
 
 }
+
+
+		
+			
+
+
+
