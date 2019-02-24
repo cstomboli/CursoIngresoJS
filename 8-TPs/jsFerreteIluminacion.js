@@ -14,56 +14,67 @@ function CalcularPrecio ()
 	var cantidad;
 	var marca;
 	var precio;
-	var PrecioConDescuento;
-
+	var precioFinal,
 
 	cantidad=Cantidad.value;
 	marca=Marca.value;
-
-	cantidad=parseInt("cantidad");
 	precio=cantidad*35;
 
 	switch (cantidad)
 	{
 		case "5":
-		precioConDescuento=precio*0.6;
-		alert(precioConDescuento);
-		break;	
+		if (marca=="ArgentinaLuz") 
+		{
+			precioFinal=precio*0.6;	
+		}
+		else 
+		{
+			precioFinal=precio*0.70;
+		}
+		break;
+
+		case "4":
+		if (marca=="ArgentinaLuz" || marca=="FelipeLamparas" ) 
+		{
+			precioFinal=precio*0.75;
+		}
+		else
+		{
+			precioFinal=precio*0.80;
+		}
+		break;
+
+		case "3":
+		if (marca=="ArgentinaLuz") 
+		{
+			precioFinal=precio*0.85;
+		}
+		else
+		{
+				if (marca=="FelipeLamparas") 
+				{
+					precioFinal=precio*0.90;
+				}
+
+				else
+				{
+					precioFinal=precio*0.95;
+				}
+				break;	
+		}
+
+		case "1":
+		case "2":
+		precioFinal=precio;
+		break;
+
+		default:
+		precioFinal=precio*0.5;
+		break;
+		
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+document.getElementById('precioDescuento').value=precioFinal;
 
 }	
 
