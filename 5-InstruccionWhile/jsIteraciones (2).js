@@ -4,12 +4,13 @@ function mostrar()
 
 	while (contador>0)
 	{
-		
+		alert(contador);
 		contador=contador-1;
+		
 		
 	}
 
-	console.log(contador);
+	
 
 
 }//FIN DE LA FUNCIÓN
