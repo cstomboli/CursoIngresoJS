@@ -9,5 +9,29 @@ e.	Se pedirán un número positivo y se mostrará la cantidad de números Primos
 */
 function ComenzarIngreso () 
 {
- 	
+ 	var primerNumero;
+ 	var contador="";
+
+ 	primerNumero=numero.value;
+
+
+
+function NumerosPares ()
+
+{
+	primerNumero=document.getElementById('primerNumeroprimer').value;
+	contador=primerNumero;
+	
+	while (contador>0)
+	{
+		
+	}	
+
+
+
 }
+
+
+}
+
+
