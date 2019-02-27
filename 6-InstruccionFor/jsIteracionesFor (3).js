@@ -10,7 +10,6 @@ var numeroIngresado;
 	numeroIngresado=prompt("por favor ingrese un numero:");
 	numeroIngresado=parseInt(numeroIngresado);
 
-	
 		for (numeroAnterior= numeroIngresado - 1; numeroAnterior>0;numeroAnterior-- ) 
 		{
 		
@@ -26,6 +25,7 @@ var numeroIngresado;
 			{
 					console.log("Es un numero perfecto.");
 			}
+	
 
 
 

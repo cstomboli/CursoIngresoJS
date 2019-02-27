@@ -6,9 +6,9 @@ function mostrar()
 	for (  ; contador<10; )
 	{
 
-
-		console.log(contador);
 		contador++;
+		console.log(contador);
+		
 
 	} 
 }
