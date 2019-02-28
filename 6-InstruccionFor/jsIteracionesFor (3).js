@@ -2,7 +2,24 @@ function mostrar()
 {
 
 //var repetciones = prompt("ingrese el número de repeticiones");
-var numeroIngresado;
+	
+	var boton;
+	var contador=0
+
+	for (	; contador==boton; contador++) 
+	{
+		alert(hola);
+	}
+
+
+
+
+
+
+
+
+/*	
+	var numeroIngresado;
 	var numeroAnterior;
 	var recorrido;
 	var acumulador;
@@ -27,6 +44,6 @@ var numeroIngresado;
 			}
 	
 
-
+*/
 
 }//FIN DE LA FUNCIÓN
