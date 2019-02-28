@@ -1,5 +1,16 @@
 function mostrar()
 {
+
+	palabra="luz azul";
+	for (i=0; i< palabra.length; i++) 
+	{
+		console.log(palabra[i]);
+	}
+	
+
+
+
+/*
 	var numeroIngresado;
 	var numeroAnterior;
 	var recorrido;
@@ -26,5 +37,5 @@ function mostrar()
 			}
 
 	}
-
+*/
 }
