@@ -62,3 +62,4 @@ function mostrar()
 	document.write(promedioPeso);
 	document.write(maximoPeso + minPeso);
 }
+document.write("la temperatura es:  " + contadorTemperaturaPar + " <br>");
