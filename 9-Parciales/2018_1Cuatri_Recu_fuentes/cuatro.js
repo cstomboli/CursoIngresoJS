@@ -10,23 +10,28 @@ function mostrar()
 
 	if (numeroUno==numeroDos)
 	{
-		alert(numeroUno+numeroDos);
+		alert(numeroUno+numeroDos);	
 	}
 
 		else
 		{
 			numeroUno=parseInt(numeroUno);
 			numeroDos=parseInt(numeroDos);
-			division=numeroUno/numeroDos;
+			
 			sumar=numeroUno+numeroDos;
 
 			if (numeroUno>numeroDos)
 			{
-				alert(division);
+				alert(division=numeroUno/numeroDos);
 			}
 			else
 			{
 				alert(sumar);
+				if (sumar<50) 
+				{
+
+					alert("la suma es " + sumar + " y es menor a 50");
+				}
 			}
 
 		}
