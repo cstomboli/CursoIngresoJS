@@ -15,7 +15,7 @@ hora=parseInt(hora);
 			switch (hora)
 
 			{
-				
+				case 6:
 				case 7:
 				case 8:
 				case 9:
@@ -32,18 +32,14 @@ hora=parseInt(hora);
 				case 17:
 				case 18:
 				case 19:
+				mensaje="Es de tarde";
+				break;
+
 				case 20:
 				case 21:
 				case 22:
 				case 23:
 				case 24:
-				mensaje="Es de noche";
-				if (hora>19 || hora>24)
-				{
-					mensaje="a dormir";
-				}
-				break;
-
 				case 0:
 				case 1:
 				case 2:
@@ -70,6 +66,9 @@ if (mensaje != " ")
 	{
 	alert(mensaje);
 	}
-
+if (hora>19 && hora<25)
+	{
+	alert("a dormir");
+	}
 
 }

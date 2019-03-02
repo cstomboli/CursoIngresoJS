@@ -7,6 +7,45 @@
 
 function mostrar()
 {
+	var planeta =prompt("Ingrese un planeta");
+	var mensaje="";
+
+	switch (planeta)
+	{
+		case "mercurio":
+		case "venus":
+		mensaje="aca hacer mas calor";
+		break;
+
+		case "tierra":
+		mensaje="aca vivimos";
+		break;
+
+		case "marte":
+		case "jupiter":
+		case "saturno":
+		case "urano":
+		case "neptuno":
+		case "pluton":
+		mensaje="aca hace mas frio";
+		break;
+
+		default:
+		mensaje="no es un planeta valido";
+
+	}
+
+if (mensaje !="") 
+{
+	alert(mensaje);
+}
+
+
+
+
+
+
+/*
 		var valorHabitacion;
 		var medioDePago;
 		var descuento;	
@@ -67,6 +106,6 @@ function mostrar()
 
 			}
 
-
+*/
 			
 }
