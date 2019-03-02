@@ -3,15 +3,15 @@ function mostrar()
 var precio;
 var descuento;
 var precioConDescuento;
-var precioFinal
+
 
 precio=prompt("Por favor ingrese el precio");
 descuento=prompt("Por favor ingrese el descuento");
-//NO PARSEO LOS NUMEROS Y EL DESCUENTO LO ESCRIBO CON
-//CERO COMA!
+precio=parseInt(precio);
+descuento=parseInt(descuento);
 
-precioConDescuento=precio*descuento;
-precioFinal=precio-precioConDescuento;
+precioConDescuento=precio-(precio*descuento)/100;
 
-document.getElementById('elPrecioFinal').value=precioFinal;
+
+document.getElementById('elPrecioFinal').value=precioConDescuento;
 }
