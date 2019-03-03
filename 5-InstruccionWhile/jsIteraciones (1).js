@@ -6,8 +6,8 @@ function mostrar()
 	{
 		
 		contador=contador+1;
-		//document.write(contador + "<br>")
-		alert(contador);	
+		document.write(contador + "<br>")
+		//alert(contador);	
 	}
 
 /*
