@@ -19,10 +19,11 @@ function mostrar()
 	{
 		marca=prompt("Ingrese marca");
 		peso=prompt("Ingrese peso");
+		peso=parseInt(peso);
 		while (peso<1 || peso>100)
 		{
 			peso=prompt("Reingrese peso");	
-			peso=parseInt(peso);
+			
 		}
 		temperatura=prompt("Ingrese temperatura");
 		while (temperatura<-30 || temperatura>30)
@@ -51,7 +52,6 @@ function mostrar()
 		{
 			contadorProductos++;
 		}
-		
 		contador ++;
 		acumulador=acumulador+peso;	
 

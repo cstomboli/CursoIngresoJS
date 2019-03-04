@@ -1,18 +1,13 @@
 function mostrar()
 {
 
-	var precio;
-	var recargo;
-	var precioFinal;
+var nombre;
+var localidad;
 
-	precio=prompt("Por favor ingrese el precio del producto:");
-	precio=parseInt(precio);
+nombre=elNombre.value;
+localidad=laLocalidad.value;
 
-	recargo=precio*0.1;
-
-	precioFinal=precio+recargo;
-
-	alert("El precio del producto en efectivo es: $ "+ precio + ", con tarjeta tiene un recargo del 10% que seria: $" + recargo + ", costandole al final: $"+ precioFinal + " ");
+alert("Usted es " +nombre+ " y vive en la localidad de " +localidad);
 
 
 } 

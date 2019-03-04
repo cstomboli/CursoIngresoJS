@@ -7,6 +7,37 @@
 
 function mostrar()
 {
+	var planeta;
+	planeta=prompt("ingrese un planeta");
+
+	switch (planeta)
+	{
+		case "tierra":
+		alert("aca vivimos");
+		break;
+
+		case "mercurio":
+		case "venus":
+		alert("aca hace mas calor");
+		break;
+
+		case "marte":
+		case "jupiter":
+		case "saturno":
+		case "urano":
+		case "neptuno":
+		alert("aca hace mas frio");
+		break;
+
+		default:
+		alert("el planeta no existe");
+
+	}
+
+
+}
+
+/*
 	var planeta =prompt("Ingrese un planeta");
 	var mensaje="";
 
@@ -39,7 +70,7 @@ if (mensaje !="")
 {
 	alert(mensaje);
 }
-
+*/
 
 
 
@@ -108,4 +139,4 @@ if (mensaje !="")
 
 */
 			
-}
+

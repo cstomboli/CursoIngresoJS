@@ -1,5 +1,43 @@
 function mostrar()
 {
+	var primerNumero;
+	var segundoNumero;
+	var resta;
+	var suma;
+
+	primerNumero=prompt("ingrese primer Numero");
+	segundoNumero=prompt("ingrese segundo Numero");
+
+	if (primerNumero==segundoNumero) 
+	{
+		alert(primerNumero+segundoNumero);
+	}
+	else
+	{
+		primerNumero=parseInt(primerNumero);
+		segundoNumero=parseInt(segundoNumero);
+
+		if (primerNumero>segundoNumero) 
+		{
+			resta=primerNumero-segundoNumero;
+			alert(resta);
+		}
+		else
+		{
+			suma=primerNumero+segundoNumero;
+			alert(suma);
+		}
+	}
+if (suma>10) 
+{
+	alert("La suma es " +suma+ " y supero el 10");
+}
+
+}
+
+
+
+	/*
 	var precio1;
 	var precio2;
 	var precio3;
@@ -72,10 +110,10 @@ function mostrar()
 	total=total*recargo;
 	alert("El mayor es: "+precioMayor+ " y el total es: "+ total +" ".);
 
-
 }
 
 
+*/
 		
 			
 
