@@ -44,20 +44,20 @@ function mostrar()
 			animalMaspesado=animal;
 			temperaturaAnimal=temperatura;
 		}
-		if (flag==true || temperatura<0 || peso>pesoMayorGrados) 
-		{
-			pesoMayorGrados=peso;
-
-		}
-		if (flag==true || temperatura<0 || peso<pesoMenorGrados) 
-		{
-			pesoMenorGrados=peso;
-			flag=false;
-		}
-		if (temperatura<0) 
+		if (temperatura<0)
 		{
 			temperaturaGrados=temperaturaGrados+1;
 
+			if (flag==true  || peso>pesoMayorGrados) 
+			{
+				pesoMayorGrados=peso;
+
+			}
+			if (flag==true  || peso<pesoMenorGrados) 
+			{
+				pesoMenorGrados=peso;
+				flag=false;
+			}
 		}
 
 		contador=contador+1;

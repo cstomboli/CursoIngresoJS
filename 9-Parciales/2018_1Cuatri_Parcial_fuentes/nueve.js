@@ -51,7 +51,7 @@ function mostrar()
 		{
 			contadorProductos=contadorProductos+1;
 		}
-		contador +1;
+		contador=contador+1;
 		acumulador=acumulador+peso;	
 
 		
