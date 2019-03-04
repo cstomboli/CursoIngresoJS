@@ -1,6 +1,6 @@
 function mostrar()
 {
-	var animal;
+	var marca;
 	var peso;
 	var temperatura;
 	var respuesta="si";
@@ -17,14 +17,15 @@ function mostrar()
 
 	while (respuesta== "si")
 	{
-		animal=prompt("Ingrese un animal del zoologico");
+		marca=prompt("Ingrese una marca");
 		peso=prompt("Ingrese peso");
-		peso=parseInt(peso);
-		while (peso<1 || peso>1000)
+		
+		while (peso<1 || peso>100)
 		{
 			peso=prompt("Reingrese peso");	
 			
 		}
+		peso=parseInt(peso);
 		temperatura=prompt("Ingrese temperatura");
 	
 		while (temperatura<-30 || temperatura>30)
@@ -39,22 +40,18 @@ function mostrar()
 		if (flag==false || peso>maximoPeso) 
 		{
 			maximoPeso=peso;
-			marcaMaximoPeso=marca;
-			maximoPeso=parseInt(maximoPeso);
-			
+			marcaMaximoPeso=marca;			
 		}
 		if (flag==false || peso<minPeso) 
 		{
-			minPeso=peso;
-			marcaMinPeso=marca;
-			minPeso=parseInt(minPeso);
+			minPeso=peso;			
 			flag=true;
 		}
 		if (temperatura<0) 
 		{
-			contadorProductos++;
+			contadorProductos=contadorProductos+1;
 		}
-		contador ++;
+		contador +1;
 		acumulador=acumulador+peso;	
 
 		
@@ -63,9 +60,9 @@ function mostrar()
 
 	promedioPeso=acumulador/contador;
 
-	document.write(" : " +  + " <br>");
-	document.write(": " +  + " <br>");
-	document.write(": " +  + " <br>");
-	document.write(": " +  + " <br>");
-	document.write(": " +  + "  : " + );
+	document.write("temperatura Pares: " +contadorTemperaturaPar+ " <br>");
+	document.write("Marca prodcuto mas pesado: " +marcaMaximoPeso+ " <br>");
+	document.write("Cantidad productos a 0 grados: " +contadorProductos+ " <br>");
+	document.write("Promedio de peso: " +promedioPeso+ " <br>");
+	document.write("Peso maximo: "+maximoPeso+" peso minimo: "+minPeso+" <br>");
 }
